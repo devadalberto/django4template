@@ -9,8 +9,11 @@ My starter template for django using some 'must have' modules/gadgets for any pr
 
 ## tl;dr
 
-Assuming you have already created a virtual environment(venv) and activated it:
+Install a virtual environment (venv):
 
+![python_venv_1920x1080](https://user-images.githubusercontent.com/18197046/165364571-bca825dd-cff6-4eb4-8bb8-a9afec2e7491.gif)
+
+Then:
 ```python
 django-admin startproject kamehameha --template https://github.com/devadalberto/django4template/archive/refs/heads/main.zip
 ```
@@ -37,7 +40,8 @@ python manage.py runserver
 
 And you should see something like this:
 
-![kamehameha_demo_startup](https://user-images.githubusercontent.com/18197046/145336560-087a2249-3ca1-42cd-8b7e-28abe3b790fa.png)
+![runserver_screenshot](https://user-images.githubusercontent.com/18197046/165364330-f2d773b0-06ee-450e-a72e-423a9240fed4.png)
+<!-- ![kamehameha_demo_startup](https://user-images.githubusercontent.com/18197046/145336560-087a2249-3ca1-42cd-8b7e-28abe3b790fa.png) -->
 
 ### More Details
 
