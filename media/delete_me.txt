@@ -1,0 +1,2 @@
+Given git does not track empty dirs I added this text file inside the media dirs
+you can safely delete this file.
