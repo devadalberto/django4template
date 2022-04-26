@@ -1,0 +1,25 @@
+# Django
+# ------------------------------------------------------------------------------
+django
+django-extensions
+django-crispy-forms
+django-cors-headers
+django-environ
+django-model-utils
+#django-redis
+#django-allauth
+
+# utils
+# ------------------------------------------------------------------------------
+crispy_bootstrap5
+Pillow
+pytz
+python-slugify
+argon2-cffi
+whitenoise
+#redis
+
+# Django REST Framework
+# ------------------------------------------------------------------------------
+#djangorestframework
+#django-cors-headers

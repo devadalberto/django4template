@@ -1,0 +1,30 @@
+-r base.txt
+
+# Django
+# ------------------------------------------------------------------------------
+factory-boy
+django-debug-toolbar
+django-extensions
+django-coverage-plugin
+pytest-django
+
+# utils
+# ------------------------------------------------------------------------------
+Werkzeug
+ipdb
+psycopg2
+
+
+# Documentation
+# ------------------------------------------------------------------------------
+sphinx
+sphinx-autobuild
+
+# Code quality
+# ------------------------------------------------------------------------------
+#flake8
+#flake8-isort
+#coverage
+#black
+pylint-django
+#pre-commit

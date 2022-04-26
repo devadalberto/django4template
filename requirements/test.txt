@@ -1,0 +1,8 @@
+-r dev.txt
+# Testing
+# ------------------------------------------------------------------------------
+mypy
+django-stubs
+pytest
+pytest-sugar
+#djangorestframework-stubs
