@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}
+  Home
+  {{ block.super }}
+{% endblock title %}
+{% block content %}
+  <h1>
+    Home
+  </h1>
+  <br/>
+  <hr>
+  <h3>Today is:
+    {{date_today}}
+  </h3>
+{% endblock content %}

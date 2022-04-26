@@ -1,0 +1,41 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="{% static 'favicon.ico' %}"/>
+
+	<link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}" />
+
+    <!-- Custom js & css
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" /> -->
+
+
+    <title>
+      {% block title %}{% endblock title %}
+    </title>
+  </head>
+
+  <body>
+    {% include 'navbar.html' %}
+    <div class="container container-fluid mt-4 mb-4">
+      {% block content %}{% endblock content %}
+
+      {% block body %}{% endblock %}
+    </div>
+    <footer class="text-center text-white fixed-bottom mt-auto py-3 bg-dark">
+        <div class="container">
+          <span class="text-muted">&copy; TEAM - YEAR - YOUR_COMPANY</span>
+        </div>
+      </footer>
+    <!-- Javascript-->
+    <script src="{% static 'scripts/bootstrap.min.js' %}"></script>
+    {% block scripts %}{% endblock %}
+  </body>
+
+</html>
