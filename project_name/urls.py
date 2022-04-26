@@ -7,8 +7,7 @@ from .views import home_view
 
 urlpatterns = [
     path('', home_view, name='home-view'),
-    path('admin/', admin.site.urls),
-    path('__debug__/', include('debug_toolbar.urls'))
+    path('admin/', admin.site.urls)
 ]
 
 # admin site Headers and Index titles
