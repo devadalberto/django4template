@@ -1,4 +1,4 @@
-# django3-bootstrap5-template
+# django4 template
 
 My starter template for django using some 'must have' modules/gadgets for any project.
 
@@ -12,7 +12,7 @@ My starter template for django using some 'must have' modules/gadgets for any pr
 Assuming you have already created a virtual environment(venv) and activated it:
 
 ```python
-django-admin startproject kamehameha --template https://github.com/devadalberto/django3-bootstrap5-template/archive/refs/heads/main.zip
+django-admin startproject kamehameha --template https://github.com/devadalberto/django4template/archive/refs/heads/main.zip
 ```
 
 ```python
