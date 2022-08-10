@@ -1,5 +1,31 @@
 # django4 template
 
+## Archiving this one
+
+## Check the 'updated' version on:
+
+https://github.com/devadalberto/django4_quickstart_template
+
+It has 2 branches, devdocker branch was fun to do.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 My starter template for django using some 'must have' modules/gadgets for any project.
 
 ## Versions
